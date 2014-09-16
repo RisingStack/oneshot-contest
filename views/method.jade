@@ -1,0 +1,9 @@
+doctype
+html
+  head
+    title!= module + '/' + type
+    link(rel='stylesheet', type='text/css', href='/style.css')
+  body
+    #wrapper
+      h1!= method.textRaw
+      .desc!= method.desc

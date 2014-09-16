@@ -1,0 +1,41 @@
+                            __              __
+                           /\ \            /\ \__
+  ___    ___      __    ___\ \ \___     ___\ \ ,_\
+ / __`\/' _ `\  /'__`\ /',__\ \  _ `\  / __`\ \ \/
+/\ \L\ /\ \/\ \/\  __//\__, `\ \ \ \ \/\ \L\ \ \ \_
+\ \____\ \_\ \_\ \____\/\____/\ \_\ \_\ \____/\ \__\
+ \/___/ \/_/\/_/\/____/\/___/  \/_/\/_/\/___/  \/__/
+ __                 __                                 __
+/\ \               /\ \                               /\ \__
+\ \ \____  __  __  \_\ \     __    _____     __    ___\ \ ,_\
+ \ \ '__`\/\ \/\ \ /'_` \  /'__`\ /\ '__`\ /'__`\ /',__\ \ \/
+  \ \ \L\ \ \ \_\ /\ \L\ \/\ \L\.\\ \ \L\ /\  __//\__, `\ \ \_
+   \ \_,__/\ \____\ \___,_\ \__/.\_\ \ ,__\ \____\/\____/\ \__\
+    \/___/  \/___/ \/__,_ /\/__/\/_/\ \ \/ \/____/\/___/  \/__/
+                                     \ \_\
+                                      \/_/
+
+Your task:
+
+  - Write an express app that renders the core node API docs.
+  - The url /v0.10.31/stream/Readable/read should render the documentation
+    for method `read` in the `Readable` class in `stream` module,
+    for node v0.10.31.
+    The documentation can be found here:
+
+      http://nodejs.org/docs/v0.10.31/api/stream.html#stream_readable_read_size
+
+    It's available in JSON too:
+
+      http://nodejs.org/docs/v0.10.31/api/stream.json
+
+    The app should be able to render docs for every method
+    in every class in every module, for every node version.
+  - The documentation should be fetched on-the-fly.
+  - If the documentation is missing, you should redirect users to
+    http://thebest404pageever.com
+  - Use the template `views/method.jade`!
+  - You can use any module (and you should add them to `package.json`!)
+  - The server should be able to serve the static files found in `/assets`.
+  - You should pass the tests (run `npm test` before you submit!)
+  - Google is your friend! ;)

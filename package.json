@@ -1,0 +1,27 @@
+{
+  "name": "oneshot-contest",
+  "version": "1.0.0",
+  "description": "1. Solve the task. 2. ??? 3. PROFIT!",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/risingstack/oneshot-contest"
+  },
+  "author": "Bence Dányi <bence@danyi.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/risingstack/oneshot-contest/issues"
+  },
+  "homepage": "https://github.com/risingstack/oneshot-contest",
+  "dependencies": {
+    "express": "^4.8.8"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "supertest": "^0.13.0"
+  }
+}

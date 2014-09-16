@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  color: #222
+}
+
+code, pre {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+pre {
+  margin: 20px 10px;
+  padding: 5px;
+  background: #eee;
+  font-size: 11px;
+}
+
+#wrapper {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: 'IM Fell English', serif;
+}
