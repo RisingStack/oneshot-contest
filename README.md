@@ -1,6 +1,6 @@
 # oneshot-contest
 
-ONE-SHOT Budapest is one day Node.JS conference presented by NodeConf.
+[ONE-SHOT](http://oneshot.risingstack.com) Budapest is one day Node.JS conference presented by NodeConf.
 
 If you are a student, and you are interested in JavaScript, you
 can win a ticket for the conference. Your task is simple:
